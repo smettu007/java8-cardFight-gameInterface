@@ -1,0 +1,12 @@
+1) To run the program please open CardFight.java, compile and run it. PLease read manual first befre playingwith server.
+
+I havent done exception checking for taking inputs from server input.
+
+Info on the files:
+
+1) Card.java: Has the implementation for Cards
+2) CardFight.java: Stating point to create players and launch game and server interfaces
+3) GameInterface.java: has only GUI implementation of the player
+4) ServerInterface.java: has only GUI implmentation of the server and its calls to server
+5) Player.java: Has implemntation for player and their properties, has logic to handle requests from GameInterface
+6) Server.java: has implementation for server logic and to handle requests form ServerIneterface
